@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>After School Lessons</title>
+  <title>After School Club</title>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
   <link rel="stylesheet" href="styles.css">
   <script src="lessons.js"></script>
@@ -13,7 +13,6 @@
   <div id="app">
     <div class="header">
       <div class="logo">
-        <img src="images/AfterSchool.png" alt="">
       </div>
       <div class="header-actions">
         <button class="outlined-btn" v-on:click="goToLessons">
@@ -27,8 +26,7 @@
     <div v-if="showLessons" class="home-page">
       <div class="hero-banner">
         <div class="text">
-          <h2 class="text-1">Find <span>After School</span></h2>
-          <h2 class="text-2">activities here.</h2>
+          <h2 class="text-1"><span>After School Club</span></h2>
         </div>
       </div>
       <section class="main-catalog">
@@ -130,6 +128,33 @@
         </div>
       </section>
     </div>
+    <div v-else class="shopping-cart-page">
+        <div class="hero-banner">
+          <div class="text">
+            <h2 class="text-1">Shopping Cart</h2>
+          </div>
+        </div>
+        <section class="main-catalog page">
+          <div class="catalog-body">
+            <div class="catalog-header">
+              <h2>All Selected Lessons</h2>
+            </div>
+            <div class="lessons-catalog">
+              <div v-for="(lesson, index) in cart" class="lesson-card">
+                <img v-bind:src="lesson.image" alt="">
+                <div class="lesson-info">
+                  <div class="lesson-info-top">
+                    <div class="lesson-subject-and-price">
+                      <span class="lesson-subject">
+                        {{ lesson.subject }}
+                      </span>
+                      <span class="lesson-price">
+                        ${{ lesson.price }}
+                      </span>
+                    </div>
+                    <div class="lesson-location">
+                      {{ lesson.location }}
+                    </div>
                   <!-- <div class="lesson-spaces">
                     {{ lesson.spaces }} spaces
                   </div> -->
