@@ -6,7 +6,7 @@ const lessons = [
       spaces: 5,
       price: 500,
       stars: 4,
-      image: 'images/English.png'
+      image: 'Images/English.png'
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ const lessons = [
       spaces: 5,
       price: 350,
       stars: 4,
-      image: 'images/science.png'
+      image: 'Images/science.png'
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const lessons = [
       spaces: 5,
       price: 750,
       stars: 5,
-      image: 'images/networking.png'
+      image: 'Images/networking.png'
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const lessons = [
       spaces: 5,
       price: 600,
       stars: 4,
-      image: 'images/music.png'
+      image: 'Images/music.png'
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ const lessons = [
       spaces: 5,
       price: 250,
       stars: 3,
-      image: 'images/mathematics.png'
+      image: 'Images/mathematics.png'
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ const lessons = [
       spaces: 5,
       price: 450,
       stars: 2,
-      image: 'images/Literature.png'
+      image: 'Images/Literature.png'
     },
     {
       id: 7,
@@ -60,7 +60,7 @@ const lessons = [
       spaces: 5,
       price: 150,
       stars: 3,
-      image: 'images/Hm.png'
+      image: 'Images/Hm.png'
     },
     {
       id: 8,
@@ -69,7 +69,7 @@ const lessons = [
       spaces: 5,
       price: 50,
       stars: 4,
-      image: 'images/geography.png'
+      image: 'Images/geography.png'
     },
     {
       id: 9,
@@ -78,7 +78,7 @@ const lessons = [
       spaces: 5,
       price: 150,
       stars: 5,
-      image: 'images/Dance.png'
+      image: 'Images/Dance.png'
     },
     {
       id: 10,
@@ -87,6 +87,6 @@ const lessons = [
       spaces: 5,
       price: 200,
       stars: 3,
-      image: 'images/art.png'
+      image: 'Images/art.png'
     }
   ]
